@@ -1,0 +1,171 @@
+/*{
+	border: 1px solid black;
+}	
+
+
+/*fondo de la cabecera*/
+.background {
+	background-image: url('../img/background.png');
+	background-size: cover;
+	height: 300px;
+	color: white;
+}
+
+#header{
+	margin-left: 0px;
+	position: relative;
+	margin: auto;
+	width: 500px;
+}
+
+figure.inviePortada{
+	display: inline-block;
+	margin-left: 0px;
+}
+
+.portada{
+	margin: auto;
+	width: 600px;
+}
+
+nav.headtext1{
+	display: inline-block;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+}
+
+header li{
+	margin-right: 12px;
+	padding-right: 12px;
+}
+
+header a{
+	text-decoration: none; 	
+	color: white;
+	font-size: 18px;
+}
+
+.headtext1 li{
+	display: inline-block;
+}
+
+.headtext2{
+	margin: auto;
+	width: 500px;
+}
+
+span{
+	color: white;
+	text-decoration: underline;
+}
+
+#h1{
+	color: white;
+	font-size: 40px;
+	margin-bottom: 1px;
+}
+
+#h3{
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 1px;
+}
+
+#button{
+	background: linear-gradient(to top,red,orange);
+	border-radius: 8px;
+}
+
+
+#img1{
+	width: 100px;
+}
+
+#pagcentral{
+	color: #273B47;
+	margin: auto;
+	width: 500px;
+}
+
+#cuadro1{
+	border: black 1px solid;
+	border-radius: 8px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#cuadro2{
+	border: black 1px solid;
+	border-radius: 8px;
+	position: relative;
+	margin-bottom: 30px;
+
+}
+
+.imgcuad1{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	display: flex;
+	bottom: 0px;
+	right: 0;
+}
+
+#invAcustica{
+	margin-left: 50px;
+}
+
+.imgcuad2{
+	width: 180px;
+	height: 150px;
+	position: absolute;
+	display: inline-block;
+	bottom: -30px;
+	right: 0;
+	margin-right: 300px;
+
+}
+
+#invClassic{
+	left: 100px;
+	margin-left: 300px;
+}
+
+.invClassic{
+	margin-left: 300px;
+}
+
+
+#form{
+	background: #273B47;
+	color: white;
+}
+
+#footCenter{
+	margin: auto;
+	width: 500px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.contacto{
+	display: inline-block;
+	position: relative;
+	margin-top: 10px;
+}
+
+#formulario{
+	display: flex;
+	font-size: 12px;
+	margin-left: 15px;
+}
+
+.invieFoot{
+	width: 150px;
+}
+
+.formulario2{
+	margin-left: 5px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Invie</title>
+		<link rel="stylesheet" href="css/estilo.css">
+	</head>
+	<body>
+		<section class="background">
+			<header id="header" class=""> <!-- portada -->
+				<figure class="inviePortada">
+					<img id="img1" src="img/invie.png" alt="">
+				</figure>
+				<nav class="headtext1">
+					<ul>
+						<li><a href="" title="">Home</a></li>
+						<li><a href="" title=""> Guitarras</a></li>
+						<li><a href="" title="">Precios</a></li>
+					</ul>
+				</nav>	
+			</header>
+			
+			<div class="headtext2">
+				<h1 id="h1">Guitarras <span>Invie</span>sibles</h1>
+				<h3 id="h3">Se la estrella de rock ...</h3>
+				<button id="button" type="button">Conoce mas</button>
+			</div>	 
+		</section>
+		
+		<section id="guitar"> <!-- guitarras -->
+			<div id="pagcentral">
+
+			<h3>Nuestras guitarras</h3>
+
+			<div id="cuadro1"> <!-- primer cuadro -->
+				<h2 id="invAcustica">Invie Acustica</h2> 
+				<ol>
+					<li>Estilo vintage</li>
+					<li>Madera pura</li>
+					<li>Incluye estuche invisile de alumnio</li>
+				</ol>
+				<img class="imgcuad1" src="img/invie-acustica.png" alt="">
+			</div>
+
+			<div id="cuadro2"> <!-- segundo cuadro -->
+				<h2 id="invClassic">Invie Clasica</h2>
+				<ol class="invClassic">
+					<li>Estilo vintage</li>
+					<li>Liviana</li>
+					<li>Inicia tu camino...</li>
+				</ol>
+				<img class="imgcuad2" src="img/invie-classic.png"" alt="">
+			</div>
+			
+			</div>
+		</section>
+			
+		<footer id="form"> <!-- contacto/formulario -->
+		<div id="footCenter">
+			<div class="contacto">  <!-- contacto -->
+				<img class="invieFoot" src="img/invie-white.png" alt=""><br>
+				<table>
+						<tr>
+							<td>telefono</td>
+							<td>E-mail</td>
+						</tr>
+						<tr>
+							<td>3024456678</td>
+							<td>contacto@invie.com</td>
+						</tr>
+				</table>
+			</div>
+
+			<div id="formulario"> <!-- formulario -->
+							
+				<form class="formulario1" action="index_submit" method="get" accept-charset="utf-8">
+					<div> <!-- informacion cliente -->
+						<p>Nombre</p>
+						<input type="text" name="nombre">
+						<p>E-mail</p>
+						<input type="text" name="email"><br>
+						<label><input type="radio" name="" value="" checked>Mujer</label>
+  						<label><input type="radio" name="" value="">Hombre</label><br>
+  						<label><input type="checkbox" name="" value="" checked>Cotizacion</label>
+  						<label><input type="checkbox" name="" value="" >Reclamos</label><br>
+  						<label><input type="checkbox" name="" value="" >Comentarios</label>
+  						<label><input type="checkbox" name="" value="" >Otros</label>
+					</div>
+				</form>
+
+				<form class="formulario2" action="index_submit" method="get" accept-charset="utf-8" style="text-align: right;">
+					<div> <!-- comentarios del cliente-->
+						<p>Comentarios</p>
+						<textarea rows="5" cols="30" name="txtsugerencias"></textarea><br>
+						<input class="env" type="submit" value="Enviar">
+					</div>
+				</form>
+
+			</div>
+		</div>
+		</footer>
+
+	</body>
+
+</html>
